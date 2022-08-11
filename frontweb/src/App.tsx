@@ -1,13 +1,14 @@
 import './assets/styles/custom.scss';
 import './App.css';
-
+import Navbar from 'components/Navbar';
 
 const App = () => {
   return (
-    
-    <h1 className='bg-warning'>Hello Dev Neves</h1>
-  
+    <>
+      <Navbar />
+      <h1>Hello Dev</h1>
+    </>
   );
-}
+};
 
 export default App;
