@@ -1,0 +1,9 @@
+$theme-colors: (
+  'warning': #F78B00,
+);
+
+$body-bg: #E5E5E5;
+$body-color: #00285F;
+$body-color-infos: #EDEDED;
+
+@import '~bootstrap/scss/bootstrap.scss';
