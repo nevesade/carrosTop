@@ -1,0 +1,30 @@
+.main-nav {
+    min-height: 70px;
+   padding:0 40px;
+}
+
+
+.nav-logo-text {
+    color: #00285F;
+    font-weight: bold;
+}
+
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 180px;
+    justify-content: space-between;
+    
+}
+
+.main-menu a {
+    color: #00285F;
+    font-size: 18px;
+}
+
+/*dar destaque no item menu*/
+.main-menu a.active {
+    color: #00285F;
+    font-weight: bold;
+}   
