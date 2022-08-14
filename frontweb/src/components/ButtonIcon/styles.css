@@ -4,6 +4,7 @@
 
 
 
+
 .btn-catalog {
 
     background: #00285F;
@@ -18,11 +19,10 @@
 }
 
 
-.btn-container button:hover {
-    background-color: #00285F;
-}
 
-.btn-container h6 {
-    margin-top: 21px;
+
+h6 {
+    margin-top: 9px;
     color: #585858;
+    font-size: 16px;
 }

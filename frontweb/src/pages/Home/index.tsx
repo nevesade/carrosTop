@@ -20,11 +20,14 @@ const Home = () => {
           <div className="home-image-container">
             <MainCar />
           </div>
+
         </div>
+        
         <div className='btn-container'>
         <ButtonIcon/>
         
         </div>
+       
       </div>
     </>
   );
