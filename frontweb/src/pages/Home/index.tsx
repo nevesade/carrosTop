@@ -1,4 +1,5 @@
 import { ReactComponent as MainCar } from 'assets/images/car-header.svg';
+import ButtonIcon from 'components/ButtonIcon';
 import Navbar from 'components/Navbar';
 import './styles.css';
 
@@ -19,6 +20,10 @@ const Home = () => {
           <div className="home-image-container">
             <MainCar />
           </div>
+        </div>
+        <div className='btn-container'>
+        <ButtonIcon/>
+        
         </div>
       </div>
     </>
