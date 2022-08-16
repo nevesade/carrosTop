@@ -23,10 +23,10 @@ const Home = () => {
 
         </div>
         
-        <div className='btn-container'>
+      <div className='btn-container'>
         <ButtonIcon/>
         
-        </div>
+        </div> 
        
       </div>
     </>

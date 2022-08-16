@@ -32,5 +32,10 @@
 
 .navbar-toggler {
     
-   
+   margin-top: 10px;
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+    /* color: #00285F; */
 }
