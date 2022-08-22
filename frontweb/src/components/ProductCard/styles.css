@@ -1,0 +1,42 @@
+.product-card {
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.car-top-container {
+    border: 1px solid red;
+    padding: 14px 0;
+}
+
+
+
+
+.car-top-container img {
+    width: 220.72px;
+    height: 165px;
+}
+
+
+
+
+.car-bottom-container {
+    border: 1px solid rgb(255, 217, 0);
+    padding: 8px 21px;
+
+}
+
+.car-bottom-container h4 {
+    color: #000000;
+    font-size: 18px;
+
+}
+
+.car-bottom-container h6 {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #585858;
+
+}

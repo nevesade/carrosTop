@@ -1,19 +1,19 @@
 import './styles.css';
 
-const ButtonIcon = () => {
+type Props = {
+  text: string;
+
+}
+
+const ButtonIcon = ({text} : Props) => {
   return (
     <>
 
-
     <button className="btn  btn-catalog ">
-        <p>ver catálogo</p>
+        <p>{text}</p>
       </button>
-      <h6>Comece agora a navegar</h6>
+     
 
-
-   
-    
-      
     </>
   );
 };

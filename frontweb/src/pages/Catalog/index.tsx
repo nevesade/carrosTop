@@ -1,5 +1,6 @@
 import ButtonIcon from "components/ButtonIcon";
 import Navbar from "components/Navbar";
+import ProductCard from "components/ProductCard";
 
 
 
@@ -11,15 +12,8 @@ const Catalog = () => {
  
       <div className="container my-4">
         
-            <p>
-              Tela Catalog
-            </p>
+        <ProductCard/>
     
-         
-  
-        
-    
-       
       </div>
       </>
     );
