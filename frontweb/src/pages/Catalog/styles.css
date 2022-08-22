@@ -2,6 +2,7 @@
 
     padding: 42px 20px ;
     background: #EDEDED;
+    
 }
 
 .search-form {
@@ -20,4 +21,15 @@
 
 margin-top:0px;
 
+}
+
+
+.search-form   button {
+    background-color: #00285F;
+    color: white;
+}
+
+.search-form   button:hover {
+    background-color: #00285F;
+    color: white;
 }

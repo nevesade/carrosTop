@@ -27,6 +27,19 @@
 
 }
 
+.car-bottom-container button {
+    background-color: #00285F;
+    color: white;
+
+}
+
+.car-bottom-container button:hover {
+    background-color: #00285F;
+    color: white;
+
+}
+
+
 .car-bottom-container h4 {
     color: #000000;
     font-size: 18px;

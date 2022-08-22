@@ -1,5 +1,5 @@
 import ButtonIcon from 'components/ButtonIcon';
-import Navbar from 'components/Navbar';
+
 import ProductCard from 'components/ProductCard';
 import './styles.css';
 
@@ -7,9 +7,12 @@ import './styles.css';
 const Catalog = () => {
   return (
     <>
-      <Navbar />
+    
 
-      <div className="container my-4 base-card search-card">
+      
+
+      <div className="container my-4">
+      <div className=" my-4 base-card search-card">
         <div className='search-form'>
          
               <input className="form-control" placeholder='Digite sua busca' />
@@ -18,8 +21,6 @@ const Catalog = () => {
        
         </div>
       </div>
-
-      <div className="container my-4">
         <div className="row">
           <div className="col-sm-6 col-lg-4 col-xl-4 ">
             <ProductCard />

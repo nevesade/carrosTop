@@ -62,23 +62,36 @@
 @media (min-width: 768px) {
 .navbar-expand-md .navbar-collapse {
     
-    justify-content: flex-end;
+    justify-content :flex-end;
+
+
+    
 }
 }
 
 @media (min-width: 768px) {
     .main-nav {
         min-height: 70px;
-        padding: 0 10px;
+        padding: 0 30px;
     }
     
     }
 
+    @media (min-width: 992px) {
+        .main-nav {
+            min-height: 70px;
+            padding: 0 33px;
+        }
+        
+        }
+    
+
 
 
     @media (min-width: 1200px) {
-        .main-nav {
+        .main-nav .container-fluid{
             min-height: 70px;
-            padding: 0 140px; 
+            padding: 0 155px; 
+            
         }
         }
