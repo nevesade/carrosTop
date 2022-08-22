@@ -1,0 +1,23 @@
+.search-card  {
+
+    padding: 42px 20px ;
+    background: #EDEDED;
+}
+
+.search-form {
+
+    display: flex;
+ align-items: center;
+}
+
+.form-control {
+    height: 40px;
+    color: #A7A7A7;
+    font-size: 14px;
+}
+
+.search-form  .btn-catalog  {
+
+margin-top:0px;
+
+}

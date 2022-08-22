@@ -1,58 +1,54 @@
-import ButtonIcon from "components/ButtonIcon";
-import Navbar from "components/Navbar";
-import ProductCard from "components/ProductCard";
-
-
+import ButtonIcon from 'components/ButtonIcon';
+import Navbar from 'components/Navbar';
+import ProductCard from 'components/ProductCard';
+import './styles.css';
 
 
 const Catalog = () => {
-    return (
-      <>
-      <Navbar/>
- 
-      <div className="container my-4">
-        
-       <div className="row">
-            <div className="col-sm-6 col-lg-4 col-xl-4 ">
-            <ProductCard/>
+  return (
+    <>
+      <Navbar />
 
-            </div>
-            <div className="col-sm-6 col-lg-4 col-xl-4 ">
-            <ProductCard/>
-
-            </div>
-            <div className="col-sm-6 col-lg-4 col-xl-4 ">
-            <ProductCard/>
-
-            </div>
-            <div className="col-sm-6 col-lg-4 col-xl-4 ">
-            <ProductCard/>
-
-            </div>
-            <div className="col-sm-6 col-lg-4 col-xl-4 ">
-            <ProductCard/>
-
-            </div>
-            <div className="col-sm-6 col-lg-4 col-xl-4 ">
-            <ProductCard/>
-
-            </div>
-            <div className="col-sm-6 col-lg-4 col-xl-4 ">
-            <ProductCard/>
-
-            </div>
-            <div className="col-sm-6 col-lg-4 col-xl-4 ">
-            <ProductCard/>
-
-            </div>
-            
-            
+      <div className="container my-4 base-card search-card">
+        <div className='search-form'>
+         
+              <input className="form-control" placeholder='Digite sua busca' />
+              <ButtonIcon text='Buscar'/>
+         
+       
         </div>
-    
       </div>
-      </>
-    );
-  };
-  
-  export default Catalog;
-  
+
+      <div className="container my-4">
+        <div className="row">
+          <div className="col-sm-6 col-lg-4 col-xl-4 ">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4 ">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4 ">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4 ">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4 ">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4 ">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4 ">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4 ">
+            <ProductCard />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Catalog;
