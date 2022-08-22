@@ -52,6 +52,17 @@
 }
 
 
+.main-menu a:hover {
+    color: #fff;
+}
+
+/*dar destaque no item menu*/
+.main-menu .active {
+    color: #fff;
+    font-weight: bold;
+}
+
+
 @media (min-width: 320px) {
     .main-nav {
         min-height: 70px;
@@ -91,7 +102,7 @@
     @media (min-width: 1200px) {
         .main-nav .container-fluid{
             min-height: 70px;
-            padding: 0 155px; 
+            padding: 0 140px; 
             
         }
         }

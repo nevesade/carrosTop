@@ -6,7 +6,7 @@
 }
 
 .car-top-container {
-    border: 1px solid red;
+    
     padding: 14px 0;
 }
 
@@ -22,14 +22,18 @@
 
 
 .car-bottom-container {
-    border: 1px solid rgb(255, 217, 0);
+    
     padding: 8px 21px;
+    text-align: center;
+    
 
 }
 
 .car-bottom-container button {
     background-color: #00285F;
     color: white;
+    margin-bottom: 15px;
+
 
 }
 
@@ -48,9 +52,17 @@
 
 .car-bottom-container h6 {
 
+    margin-top: 14px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #585858;
+
+    font-style: italic;
+   
+  
+    
+
+
 
 }

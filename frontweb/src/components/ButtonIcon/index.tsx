@@ -11,6 +11,7 @@ const ButtonIcon = ({text} : Props) => {
 
     <button className="btn  btn-catalog ">
         <p>{text}</p>
+        
       </button>
      
 

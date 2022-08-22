@@ -1,5 +1,6 @@
 import { ReactComponent as MainCar } from 'assets/images/car-header.svg';
 import ButtonIcon from 'components/ButtonIcon';
+import { NavLink } from 'react-router-dom';
 import './styles.css';
 
 const Home = () => {
@@ -23,8 +24,12 @@ const Home = () => {
         </div>
         
       <div className='btn-container'>
+
+        <NavLink to={'/products'}>
         <ButtonIcon text='Ver catálogo'/>
-        
+        </NavLink>
+      
+        <h6>Comece agora a navegar</h6>
         </div> 
        
       </div>
