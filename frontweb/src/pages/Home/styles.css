@@ -54,6 +54,8 @@
 }
 
 .btn-container {
+  
+
     background-color: #EDEDED;
     color: #fff;
 
@@ -61,6 +63,18 @@
     margin-top: 20px;
     border-radius: 10px;
     margin-bottom: 120px;
+
+}
+
+
+.btn-container .btn-catalog {
+    background-color: #00285F;
+    color: #fff;
+
+  
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 6px;
 
 }
 
@@ -75,6 +89,7 @@
         padding: 20px;
         font-size: 36px;
         text-align: center;
+        
 
     }
 
@@ -97,7 +112,7 @@
         /* align-items: center;  */
         justify-content: center;
         height: 123px;
-        margin-top: 30px;
+    
         padding: 12px 80px;
         
 
@@ -118,7 +133,7 @@
         margin-left: 16px;
         color: #585858;
         font-size: 16px;
-        margin-top: 38px;
+        margin-top: 28px;
 
     }
 
@@ -261,7 +276,7 @@
         margin-left: 16px;
         color: #585858;
         font-size: 18px;
-        margin-top: 38px;
+        
     }
 
 
